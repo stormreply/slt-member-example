@@ -1,2 +1,2 @@
-# slt-repo-template
-A template repository to be used to create Storm Library for Terraform (SLT) modules
+# test-storm-library-for-terraform
+A repository to test the Storm Library for Terraform workflows with
