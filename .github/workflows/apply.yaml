@@ -1,4 +1,4 @@
-name: Apply ${{github.actor}}
+name: Apply
 
 permissions:
   contents: read
