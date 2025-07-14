@@ -19,8 +19,12 @@ on:
         default: 541792499640
       backend_region:
         type: string
-        required: false
+        required: true
         default: eu-central-1
+      repository:
+        type: string
+        required: true
+        default: stormreply/storm-library-for-terraform
 
 jobs:
   init:
@@ -29,4 +33,5 @@ jobs:
       access_domain: ${{ inputs.access_domain }}
       account_id: ${{ inputs.account_id }}
       backend_region: ${{ inputs.backend_region }}
+      repository: ${{ inputs.repository }}
     secrets: inherit
