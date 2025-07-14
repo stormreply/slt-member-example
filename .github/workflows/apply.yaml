@@ -10,11 +10,11 @@ on:
     inputs:
       after:
         type: string
-        required: true
+        required: false
         default: ""
       ttl:
         type: string
-        required: true
+        required: false
         default: 1 day
 
 jobs:
