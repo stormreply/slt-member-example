@@ -29,4 +29,5 @@ jobs:
     with:
       delay: ${{ inputs.delay }}
       duration: ${{ inputs.duration }}
+      environment: ${{ inputs.environment }}
     secrets: inherit
