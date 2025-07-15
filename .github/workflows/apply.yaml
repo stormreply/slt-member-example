@@ -12,11 +12,11 @@ on:
         type: string
         required: false
         default: 1 day
-      environment:
+      wait:
         type: string
         required: false
         default: ""
-      wait:
+      environment:
         type: string
         required: false
         default: ""
