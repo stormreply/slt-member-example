@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     # checkov:skip=CKV_GHA_7: "GitHub Actions workflow_dispatch inputs MUST be empty"
     inputs:
-      delay:
+      wait:
         type: string
         required: false
         default: ""
@@ -23,5 +23,5 @@ jobs:
     uses: stormreply/storm-library-for-terraform/.github/workflows/destroy.yaml@main
     secrets: inherit
     with:
-      delay: ${{ inputs.delay }}
       environment: ${{ inputs.environment }}
+      wait: ${{ inputs.wait }}
