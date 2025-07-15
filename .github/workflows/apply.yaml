@@ -12,10 +12,12 @@ on:
         type: string
         required: false
         default: ""
+        description: "When? In"
       duration:
         type: string
         required: false
         default: 1 day
+        description: "For how long?"
       environment:
         type: string
         required: false
