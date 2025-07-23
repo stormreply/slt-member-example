@@ -1,0 +1,31 @@
+name: Init
+
+on:
+  workflow_dispatch:
+    # checkov:skip=CKV_GHA_7: "GitHub Actions workflow_dispatch inputs MUST be empty"
+    inputs:
+      access_role:
+        required: true
+        default: AdministratorAccess
+      access_domain:
+        required: true
+      backend_account:
+        required: true
+      backend_region:
+        required: true
+        default: eu-central-1
+
+permissions:
+  actions: write
+  contents: read  # TODO: check if needed
+  id-token: write # TODO: check if needed
+
+jobs:
+  plan:
+    uses: stormreply/storm-library-for-terraform/.github/workflows/init.yaml@main
+    with:
+      access_role: ${{ inputs.access_role }}
+      access_domain: ${{ inputs.access_domain }}
+      backend_account: ${{ inputs.backend_account }}
+      backend_region: ${{ inputs.backend_region }}
+    secrets: inherit
