@@ -1,5 +1,8 @@
 name: Set backend
 
+permissions:
+  read-all
+
 on:
   workflow_dispatch:
     # checkov:skip=CKV_GHA_7: "GitHub Actions workflow_dispatch inputs MUST be empty"
