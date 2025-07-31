@@ -1,7 +1,6 @@
 name: Apply
 
 permissions:
-  contents: read
   id-token: write
 
 on:
@@ -16,16 +15,18 @@ on:
         type: string
         required: false
         default: ""
-      environment:
-        type: string
-        required: false
-        default: ""
+      # environment:
+      #   type: string
+      #   required: false
+      #   default: ""
 
 jobs:
+
   apply:
     uses: stormreply/storm-library-for-terraform/.github/workflows/apply.yaml@main
     with:
-      environment: ${{ inputs.environment }}
       lifetime: ${{ inputs.lifetime }}
       wait: ${{ inputs.wait }}
-    secrets: inherit
+    secrets:
+      STORM_LIBRARY_FOR_TERRAFORM: ${{ secrets.STORM_LIBRARY_FOR_TERRAFORM }}
+      TERRAFORM_PRIVATE_KEY: ${{ secrets.TERRAFORM_PRIVATE_KEY }}
