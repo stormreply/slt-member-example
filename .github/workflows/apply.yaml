@@ -15,10 +15,6 @@ on:
         type: string
         required: false
         default: ""
-      # environment:
-      #   type: string
-      #   required: false
-      #   default: ""
 
 jobs:
 
