@@ -21,7 +21,6 @@ on:
 jobs:
   destroy:
     uses: stormreply/storm-library-for-terraform/.github/workflows/destroy.yaml@main
-    secrets: inherit
     with:
       environment: ${{ inputs.environment }}
       wait: ${{ inputs.wait }}
