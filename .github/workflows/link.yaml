@@ -16,7 +16,7 @@ jobs:
   link:
     uses: stormreply/storm-library-for-terraform/.github/workflows/link.yaml@main
     with:
-      slt: ${{ inputs.slt }}
+      slt: ${{ inputs.slt || '${{ github.repository_owner}}/storm-library-for-terraform' }}
     secrets:
       STORM_LIBRARY_FOR_TERRAFORM: ${{ secrets.STORM_LIBRARY_FOR_TERRAFORM }}
       TERRAFORM_PRIVATE_KEY: ${{ secrets.TERRAFORM_PRIVATE_KEY }}
