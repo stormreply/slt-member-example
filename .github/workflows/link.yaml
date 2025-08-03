@@ -1,0 +1,20 @@
+name: Link
+
+permissions:
+  contents: read
+  id-token: write
+
+on:
+  workflow_dispatch:
+    # checkov:skip=CKV_GHA_7: "GitHub Actions workflow_dispatch inputs MUST be empty"
+    inputs:
+      slt:
+        type: string
+        default: ${github.repository_owner}
+
+jobs:
+  link:
+    uses: stormreply/storm-library-for-terraform/.github/workflows/link.yaml@main
+    secrets:
+      STORM_LIBRARY_FOR_TERRAFORM: ${{ secrets.STORM_LIBRARY_FOR_TERRAFORM }}
+      TERRAFORM_PRIVATE_KEY: ${{ secrets.TERRAFORM_PRIVATE_KEY }}
