@@ -23,7 +23,7 @@ jobs:
     uses: stormreply/storm-library-for-terraform/.github/workflows/apply.yaml@main
     with:
       lifetime: ${{ inputs.lifetime }}
-      delay: ${{ inputs.wait }}
+      delay: ${{ inputs.delay }}
     secrets:
       STORM_LIBRARY_FOR_TERRAFORM: ${{ secrets.STORM_LIBRARY_FOR_TERRAFORM }}
       TERRAFORM_PRIVATE_KEY: ${{ secrets.TERRAFORM_PRIVATE_KEY }}
