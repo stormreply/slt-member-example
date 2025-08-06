@@ -1,2 +1,2 @@
-# test-storm-library-for-terraform
-A repository to test the Storm Library for Terraform workflows with
+# slt-test-app-token
+A private repo for testing the Storm Library for Terraform workflows with an organisation's app token
