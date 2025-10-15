@@ -16,15 +16,11 @@ locals {
     : {},
 
     var._metadata.repository != ""
-    ? {
-      deployment-repository = var._metadata.repository != "" ? "https://github.com/${var._metadata.repository}" : {}
-    }
+    ? { deployment-repository = var._metadata.repository != "" ? "https://github.com/${var._metadata.repository}" : "" }
     : {},
 
     var._metadata.sha != ""
-    ? {
-      deployment-sha = var._metadata.repository != "" ? substr(var._metadata.sha, 0, 7) : {}
-    }
+    ? { deployment-sha = var._metadata.repository != "" ? substr(var._metadata.sha, 0, 7) : "" }
     : {}
   )
 }
