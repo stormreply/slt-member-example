@@ -39,6 +39,11 @@ variable "_metadata" {
   }
 }
 
+output "_deployment" {
+  value = local._deployment
+
+}
+
 output "_metadata" {
   value = var._metadata
 }
