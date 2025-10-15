@@ -8,7 +8,6 @@ locals {
 
 locals {
   _deployment = local._metadata.deployment
-  _short_name = local._metadata.short_name
 }
 
 variable "_metadata" {

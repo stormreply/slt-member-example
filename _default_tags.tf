@@ -4,7 +4,7 @@ locals {
 
     {
       for key, value in var._metadata :
-      "deployment-${replace(key, "_", "-")}" => value if value != ""
+      "deployment-${replace(key, "_", "-")}" => value if value != "" && key != "deployment"
     },
 
     var._metadata.ref_name != ""
@@ -13,6 +13,10 @@ locals {
 
     var._metadata.sha != ""
     ? { deployment-commit = "https://github.com/${var._metadata.repository}/commit/${var._metadata.sha}" }
+    : {},
+
+    var._metadata.deployment != ""
+    ? { deployment-name = var._metadata.deployment }
     : {},
 
     var._metadata.repository != ""
