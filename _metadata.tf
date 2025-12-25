@@ -14,7 +14,6 @@ variable "_metadata" {
   type = object({
     actor       = string # Github actor (deployer) of the deployment
     catalog_id  = string # SLT catalog id of this module
-    environment = string # environment of the deployment, defaults to <actor>
     deployment  = string # slt-<catalod_id>-<repo>-<environment>
     ref         = string # Git reference of the deployment
     ref_name    = string # Git ref_name (branch) of the deployment
@@ -27,7 +26,6 @@ variable "_metadata" {
   default = {
     actor       = ""
     catalog_id  = ""
-    environment = ""
     deployment  = ""
     ref         = ""
     ref_name    = ""
