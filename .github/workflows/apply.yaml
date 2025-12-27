@@ -16,10 +16,6 @@ on:
         type: string
         required: false
         default: ""
-      actor:
-        type: string
-        required: false
-        default: ""
 
 jobs:
 
@@ -28,7 +24,6 @@ jobs:
     with:
       lifetime: ${{ inputs.lifetime }}
       delay: ${{ inputs.delay }}
-      actor: ${{ inputs.environment }}
     secrets:
       STORM_LIBRARY_FOR_TERRAFORM: ${{ secrets.STORM_LIBRARY_FOR_TERRAFORM }}
       TERRAFORM_PRIVATE_KEY: ${{ secrets.TERRAFORM_PRIVATE_KEY }}
