@@ -1,7 +1,6 @@
 # slt-member-example
 
-An example "member" repository of the SLT |
-[Storm Library for Terraform](https://github.com/stormreply/storm-library-for-terraform)
+An example "member" repository of the Storm Library for Terraform
 
 #### Storm Library for Terraform
 
