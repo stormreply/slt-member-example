@@ -1,0 +1,93 @@
+<mxfile host="Electron" modified="2026-02-08T23:13:53.167Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="EDoIcxrVf3OQrW5Bh7XU" version="24.5.1" type="device">
+  <diagram name="Seite-1" id="BtAyL0-GuPOaRMJ-Kd1m">
+    <mxGraphModel dx="1242" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZuW-Ts3UVkGzy0_QFmxS-27" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;SLT Member Example: Resource Name, Deployment Tags&lt;br&gt; &amp;nbsp;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="1000" height="70" as="geometry" />
+        </mxCell>
+        <UserObject label="" id="ZuW-Ts3UVkGzy0_QFmxS-1">
+          <mxCell style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#FF9900;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#FF9900;dashed=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+            <mxGeometry x="40" y="40" width="1090" height="750" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-18" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-51" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Resource Name&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-53" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;slt-1-slt-member-example-stormreply&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-56" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Deployment Tags&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-4" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-actor&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-8" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;berndherding&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="325" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-11" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-code&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="365" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-13" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;https://github.com/stormreply/slt-member-example/tree/main&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="365" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-15" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-commit&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-17" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;https://github.com/stormreply/slt-member-example/commit/4bb9835...&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-22" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-name&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="445" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-24" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;slt-1-slt-member-example-stormreply&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="445" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-26" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-ref&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-28" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;refs/heads/main&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-30" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-ref-name&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-32" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;main&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="525" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-34" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-repo&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-36" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;slt-member-example&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="565" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-38" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-repository&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="605" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-40" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;https://github.com/stormreply/slt-member-example&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="605" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-42" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-sha&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-44" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;4bb9835&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-46" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;deployment-time&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="685" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-48" value="&lt;span style=&quot;color: rgb(15, 20, 26); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Sun&amp;nbsp;Feb&amp;nbsp;&amp;nbsp;8&amp;nbsp;22:27:47&amp;nbsp;UTC&amp;nbsp;2026&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="609" y="685" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QwiQr8dqNe3AexLMKog8-57" value="&lt;span style=&quot;font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 14px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;slt-1-slt-member-example-stormreply&lt;/span&gt;" style="text;align=left;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="97" y="441" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
