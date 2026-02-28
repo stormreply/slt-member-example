@@ -26,10 +26,15 @@ locals {
 
     var._metadata.sha != ""
     ? { deployment-sha = var._metadata.repository != "" ? substr(var._metadata.sha, 0, 7) : "" }
-    : {}
+    : {},
+
+    var._metadata.deployment != ""
+    ? { Name = var._metadata.deployment }
+    : {},
   )
 }
 
 output "_default_tags" {
-  value = local._default_tags
+  description = "Default tags to be used in Terraform provider, cf. providers.tf"
+  value       = local._default_tags
 }

@@ -84,7 +84,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output__default_tags"></a> [\_default\_tags](#output\_\_default\_tags) | n/a |
+| <a name="output__default_tags"></a> [\_default\_tags](#output\_\_default\_tags) | Default tags to be used in Terraform provider, cf. providers.tf |
 | <a name="output__metadata"></a> [\_metadata](#output\_\_metadata) | n/a |
 | <a name="output__name_tag"></a> [\_name\_tag](#output\_\_name\_tag) | n/a |
 | <a name="output_my_variable"></a> [my\_variable](#output\_my\_variable) | The value of my\_variable |
