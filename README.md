@@ -1,4 +1,4 @@
-# SLT - A Member Example
+# SLT - Member Example
 
 An example "member" repository of the Storm Library for Terraform
 
