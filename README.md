@@ -90,8 +90,8 @@ No modules.
 | <a name="output__name_tag"></a> [\_name\_tag](#output\_\_name\_tag) | Name to be used as name property of your resources. OBSOLETE. Use local.\_deployment instead. |
 | <a name="output__slt_172_16_vpc_cidr"></a> [\_slt\_172\_16\_vpc\_cidr](#output\_\_slt\_172\_16\_vpc\_cidr) | CIDR to be used if new VPCs need to be created |
 | <a name="output__slt_172_31_subnet_cidr"></a> [\_slt\_172\_31\_subnet\_cidr](#output\_\_slt\_172\_31\_subnet\_cidr) | Subnet CIDR to be used for subnets in the default VPC |
-| <a name="output__summary"></a> [\_summary](#output\_\_summary) | Key-value pairs to be published in the GITHUB\_STEP\_SUMMARY |
 | <a name="output_my_variable"></a> [my\_variable](#output\_my\_variable) | The value of my\_variable |
+| <a name="output_summary"></a> [summary](#output\_summary) | Key-value pairs to be published in the GITHUB\_STEP\_SUMMARY |
 <!-- END_TF_DOCS -->
 
 </details>
