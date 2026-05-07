@@ -1,6 +1,6 @@
 # SLT - Member Example
 
-[![SLT compliant](https://github.com/stormreply/slt-member-example/actions/workflows/check.yaml/badge.svg)](https://github.com/stormreply/slt-member-example/actions/workflows/check.yaml)
+[![Check](https://github.com/stormreply/slt-member-example/actions/workflows/check.yaml/badge.svg)](https://github.com/stormreply/slt-member-example/actions/workflows/check.yaml)
 
 An example "member" repository of the Storm Library for Terraform
 
