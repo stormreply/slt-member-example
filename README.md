@@ -1,6 +1,7 @@
 # SLT - Member Example
 
 [![Check](https://github.com/stormreply/slt-member-example/actions/workflows/check.yaml/badge.svg)](https://github.com/stormreply/slt-member-example/actions/workflows/check.yaml)
+![Compliance](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/stormreply/slt-member-example/badges/label.json)
 
 An example "member" repository of the Storm Library for Terraform
 
