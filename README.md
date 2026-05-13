@@ -6,7 +6,9 @@
 [![Test](https://github.com/stormreply/slt-member-example/actions/workflows/test.yaml/badge.svg)](https://github.com/stormreply/slt-member-example/actions/workflows/test.yaml)
 [![Destroy](https://github.com/stormreply/slt-member-example/actions/workflows/destroy.yaml/badge.svg)](https://github.com/stormreply/slt-member-example/actions/workflows/destroy.yaml)
 
-![Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/stormreply/slt-member-example/badges/Status.json)
+![Code](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/stormreply/slt-member-example/badges/Code.json)
+![Compliance](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/stormreply/slt-member-example/badges/Compliance.json)
+
 
 An example "member" repository of the Storm Library for Terraform
 
