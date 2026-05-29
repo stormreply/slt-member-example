@@ -2,5 +2,5 @@
   "schemaVersion": 1,
   "label": "Check Code",
   "message": "passing",
-  "color": "red"
+  "color": "green"
 }
