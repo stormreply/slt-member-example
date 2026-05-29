@@ -2,5 +2,5 @@
   "schemaVersion": 1,
   "label": "Check Compliance",
   "message": "passing",
-  "color": "red"
+  "color": "green"
 }
