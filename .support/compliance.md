@@ -13,4 +13,7 @@ following set of rules:
 - The `README.md` must contain all section names that are in the reference
   `README.md`, and in the same order.
 
-- The "## Credits" section is optional.
+- The "## Credits" section in the `README.md` is optional.
+
+- The `.gitignore` must contain all entries that are in the reference
+  `.gitignore`, but may contain more.
