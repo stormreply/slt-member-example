@@ -109,9 +109,9 @@ def write_step_summary(report: str) -> int:
 
 
 def main() -> int:
-    region = os.environ.get("AWS_REGION")
-    model_id = os.environ.get("BEDROCK_MODEL_ID")
-    compliance_file = os.environ.get("COMPLIANCE_FILE", "slt-repo-template/.support/compliance.md")
+    region = os.environ.get("AWS_REGION", "eu-central-1")
+    model_id = os.environ.get("BEDROCK_MODEL_ID", "eu.anthropic.claude-sonnet-4-6")
+    compliance_file = os.environ.get("COMPLIANCE_FILE", ".support/compliance.md")
 
     if not region or not model_id:
         print(
