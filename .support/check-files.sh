@@ -12,6 +12,20 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TEMPLATE_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 TARGET_DIR="$(pwd)"
 
+if [ "$TEMPLATE_ROOT" = "$TARGET_DIR" ] ; then
+    cat << EOF
+
+Template root and target dir are identical:
+
+$TEMPLATE_ROOT
+
+Make sure that you have pulled the latest version of slt-repo-template
+and run the script from slt-repo-template/.support/check-files.sh
+
+EOF
+    exit 1
+fi
+
 # ── Flags ───────────────────────────────────────────────────────────────────
 
 VERBOSE=true
@@ -42,11 +56,13 @@ declare -a DIFFS=()
 declare -a ALLOW_DIFF=(
     "providers.tf"
     "terraform.tf"
+    ".gitignore"
 )
 
 declare -a DELETE_FILES=(
     "_metadata.tf"
     "_default_tags.tf"
+    ".support/check-commit.sh"
 )
 
 declare -a UNWANTED_PATTERNS=(
