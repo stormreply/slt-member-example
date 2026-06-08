@@ -53,10 +53,8 @@ a very unique pattern, starting with _slt-_, a catalog id, the name of
 the demo, and the GitHub user that deployed it. These two concepts are
 applied to every member of the Storm Library for Terraform.
 
-## Terraform Docs
-
 <details>
-<summary>Click to show</summary>
+<summary><h2>Terraform Docs</h2></summary>
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
