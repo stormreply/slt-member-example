@@ -1,3 +1,4 @@
+### Storm Library for Terraform
 # SLT - Member Example
 
 An example "member" repository of the Storm Library for Terraform
@@ -11,8 +12,6 @@ An example "member" repository of the Storm Library for Terraform
 <!-- ![Check Code](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/stormreply/slt-member-example/badges/check-code.json)
 ![Check Files](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/stormreply/slt-member-example/badges/check-files.json)
 ![Check Compliance](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/stormreply/slt-member-example/badges/check-compliance.json) -->
-
-#### Storm Library for Terraform
 
 This repository is a member of the SLT | Storm Library for Terraform,
 a collection of Terraform modules for Amazon Web Services. The focus
