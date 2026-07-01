@@ -1,5 +1,5 @@
 ### Storm Library for Terraform
-# SLT - Member Example
+# An SLT Member Example
 
 An example "member" repository of the Storm Library for Terraform
 
